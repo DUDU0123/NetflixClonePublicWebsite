@@ -412,3 +412,20 @@ body {
         border: 2px solid rgb(107, 107, 107);
     }
 }
+@media screen and (max-width: 480px) {
+    .lang{
+        width: 3.1rem;
+        font-size: 0.6rem;
+        padding: 0;
+        height: 1.7rem;
+    }
+    .icon_down{
+        display: inline;
+    }
+    .signin{
+        width: 3.1rem;
+        font-size: 0.6rem;
+        padding: 0;
+        height: 1.7rem;
+    }
+}
