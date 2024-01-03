@@ -1,7 +1,7 @@
 
 
 // Open answer function
-function openQuestionAnswer(qstnBtnId, closeBtnId, answerPartId) {
+function openAndCloseQuestionAnswer(qstnBtnId, closeBtnId, answerPartId) {
     const qstn1Btn = document.getElementById(qstnBtnId)
     const close1Btn = document.getElementById(closeBtnId)
     const answer1Div = document.getElementById(answerPartId)
@@ -12,13 +12,6 @@ function openQuestionAnswer(qstnBtnId, closeBtnId, answerPartId) {
             qstn1Btn.classList.add("qstn_icon_remove")
         })
     }
-}
-
-// Close answer function
-function closeQuestionAnswer(qstnBtnId, closeBtnId, answerPartId) {
-    const qstn1Btn = document.getElementById(qstnBtnId)
-    const close1Btn = document.getElementById(closeBtnId)
-    const answer1Div = document.getElementById(answerPartId)
     if (close1Btn) {
         close1Btn.addEventListener("click", () => {
             qstn1Btn.classList.remove("qstn_icon_remove");
